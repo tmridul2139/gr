@@ -1,0 +1,65 @@
+/* Reset and base styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #edecec; /* Set background color to black */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #eae9e9; /* Set the background color of the container to black */
+}
+
+/* Inner content styling */
+.max-w-4xl {
+    background-color: #0e0e0e; /* Set background color to white for inner content */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Header styling */
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    color: #f3f0f0;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.slogan {
+    color: #f9f5f5;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+/* Logo image styling */
+.logo-img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Social media icons styling */
+.social-links img {
+    width: 100%;
+    max-width: 40px;
+    height: auto;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+/* Footer styling */
+.footer h1 {
+    color: #fbf6f6;
+}
